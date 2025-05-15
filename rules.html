@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Washington State Roleplay - Rules</title>
+  <link
+    rel="icon"
+    type="image/png"
+    href="https://i.postimg.cc/D05ZSwwt/WSRP-Logo-2.png"
+  />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background: url('https://i.postimg.cc/RVzyFTr5/images.jpg') no-repeat center center fixed;
+      background-size: cover;
+      margin: 0;
+      font-family: system-ui, sans-serif;
+      color: #1a202c;
+    }
+    .overlay {
+      background-color: rgba(255, 255, 255, 0.95);
+      min-height: 100vh;
+      padding-bottom: 2rem;
+    }
+    nav {
+      background: white;
+      box-shadow: 0 2px 4px rgb(0 0 0 / 0.1);
+      padding: 1rem;
+    }
+    nav .container {
+      max-width: 1024px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav img.logo-img {
+      height: 40px;
+      width: 40px;
+      object-fit: contain;
+      margin-right: 0.75rem;
+    }
+    nav h1 {
+      display: flex;
+      align-items: center;
+      font-weight: 700;
+      font-size: 1.25rem;
+    }
+    nav ul {
+      display: flex;
+      gap: 1rem;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li a {
+      position: relative;
+      color: #1a202c;
+      text-decoration: none;
+      transition: color 0.3s ease;
+      font-weight: 600;
+      padding-bottom: 4px;
+    }
+    nav ul li a::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      height: 2px;
+      width: 0%;
+      background-color: #26475e;
+      transition: width 0.3s ease;
+      border-radius: 2px;
+    }
+    nav ul li a:hover,
+    nav ul li a:focus {
+      color: #26475e;
+      outline: none;
+    }
+    nav ul li a:hover::after,
+    nav ul li a:focus::after {
+      width: 100%;
+    }
+
+    section.container {
+      max-width: 1024px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .rules-content {
+      background: white;
+      padding: 2rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 4px 6px rgb(0 0 0 / 0.1);
+    }
+    .rules-content h2 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+    .rules-content ul {
+      list-style-type: disc;
+      padding-left: 1.5rem;
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
+    .rules-content h3 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+      margin-top: 2rem;
+      font-weight: 600;
+      border-bottom: 2px solid #26475e;
+      padding-bottom: 0.25rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #e2e8f0;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #64748b;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <!-- Navigation -->
+    <nav>
+      <div class="container">
+        <h1>
+          <img
+            src="https://i.postimg.cc/D05ZSwwt/WSRP-Logo-2.png"
+            alt="WSRP Logo"
+            class="logo-img"
+          />
+          Washington State Roleplay
+        </h1>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="rules.html" class="font-bold">Rules</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Rules Section -->
+    <section class="container rules-content" role="main" aria-labelledby="rules-title">
+      <h2 id="rules-title">Server Rules</h2>
+      <ul>
+        <li>Respect everyone. No harassment, discrimination, or hate speech.</li>
+        <li>No cheating or exploiting. This includes hacks, bugs, or unfair advantages.</li>
+        <li>Follow realistic roleplay guidelines. Stay in character, avoid powergaming and metagaming.</li>
+        <li>No random deathmatching (RDM). Kill only in justified roleplay situations.</li>
+        <li>No malicious trolling or griefing.</li>
+        <li>Use proper radio and communication channels. No spamming or off-topic chatter.</li>
+        <li>Obey law enforcement orders unless roleplay calls for otherwise.</li>
+        <li>No advertising other servers or communities.</li>
+        <li>Keep language appropriate. No excessive profanity or inappropriate content.</li>
+        <li>No sexual content or harassment.</li>
+      </ul>
+
+      <h3>Banned Roleplays</h3>
+      <ul>
+        <li>Gang-related RP or glorification of criminal gangs.</li>
+        <li>Terrorism or extremist group roleplay.</li>
+        <li>Real-life controversial or sensitive topics that cause community disruption.</li>
+      </ul>
+
+      <h3>Restricted Roleplays (Staff Approval Required)</h3>
+      <ul>
+        <li>High-risk criminal RP (e.g., bank robberies, hostage situations) requiring clear roleplay planning.</li>
+        <li>Emergency service leadership roles (e.g., Chief, Captain) for vetted members only.</li>
+        <li>Custom roleplays deviating heavily from the server setting.</li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Washington State Roleplay. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>

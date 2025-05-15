@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Washington State Roleplay</title>
+  <link
+    rel="icon"
+    type="image/png"
+    href="https://i.postimg.cc/D05ZSwwt/WSRP-Logo-2.png"
+  />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background: url('https://i.postimg.cc/GpRZ5JQx/download-4.jpg') no-repeat center center fixed;
+      background-size: cover;
+      margin: 0;
+      font-family: system-ui, sans-serif;
+      color: #1a202c;
+    }
+    .overlay {
+      background-color: rgba(255, 255, 255, 0.9);
+      min-height: 100vh;
+      padding-bottom: 2rem;
+    }
+    nav {
+      background: white;
+      box-shadow: 0 2px 4px rgb(0 0 0 / 0.1);
+      padding: 1rem;
+    }
+    nav .container {
+      max-width: 1024px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav img.logo-img {
+      height: 40px;
+      width: 40px;
+      object-fit: contain;
+      margin-right: 0.75rem;
+    }
+    nav h1 {
+      display: flex;
+      align-items: center;
+      font-weight: 700;
+      font-size: 1.25rem;
+    }
+    nav ul {
+      display: flex;
+      gap: 1rem;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li a {
+      position: relative;
+      color: #1a202c;
+      text-decoration: none;
+      transition: color 0.3s ease;
+      font-weight: 600;
+      padding-bottom: 4px;
+    }
+    nav ul li a::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      height: 2px;
+      width: 0%;
+      background-color: #26475e;
+      transition: width 0.3s ease;
+      border-radius: 2px;
+    }
+    nav ul li a:hover,
+    nav ul li a:focus {
+      color: #26475e;
+      outline: none;
+    }
+    nav ul li a:hover::after,
+    nav ul li a:focus::after {
+      width: 100%;
+    }
+
+    main.container {
+      max-width: 1024px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      display: flex;
+      align-items: flex-start;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+    main .text-content {
+      flex: 1 1 400px;
+    }
+    main h2 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+    main p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      color: #334155;
+    }
+    main img.side-image {
+      flex: 1 1 350px;
+      max-width: 100%;
+      border-radius: 0.5rem;
+      box-shadow: 0 4px 10px rgb(0 0 0 / 0.1);
+    }
+    section.contact-section {
+      max-width: 1024px;
+      margin: 2rem auto;
+      padding: 1.5rem 1rem;
+      background-color: #f1f5f9;
+      border-radius: 0.5rem;
+      box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+      color: #1e293b;
+    }
+    section.contact-section h3 {
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      text-align: center;
+      color: #26475e;
+    }
+    section.contact-section p {
+      font-size: 1.1rem;
+      text-align: center;
+      margin: 0.3rem 0;
+    }
+    section.contact-section a {
+      color: #26475e;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    section.contact-section a:hover,
+    section.contact-section a:focus {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #e2e8f0;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #64748b;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <nav>
+      <div class="container">
+        <h1>
+          <img
+            src="https://i.postimg.cc/D05ZSwwt/WSRP-Logo-2.png"
+            alt="WSRP Logo"
+            class="logo-img"
+          />
+          Washington State Roleplay
+        </h1>
+        <ul>
+          <li><a href="index.html" class="font-bold">Home</a></li>
+          <li><a href="rules.html">Rules</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="container" role="main">
+      <div class="text-content">
+        <h2>Welcome to Washington State Roleplay</h2>
+        <p>
+          Washington State Roleplay is a community dedicated to delivering immersive and realistic emergency response roleplay. Join our well-moderated server where players can engage in meaningful police, EMS, and fire department scenarios. We pride ourselves on respect, teamwork, and high-quality roleplay.
+        </p>
+        <p>
+          Feel free to contact us anytime via email or Discord for questions or support!
+        </p>
+      </div>
+      <img
+        src="https://i.postimg.cc/8P1fNqz2/download-3.jpg"
+        alt="Washington State Roleplay Scene"
+        class="side-image"
+      />
+    </main>
+
+    <section class="contact-section" aria-label="Contact Information">
+      <h3>Contact Us</h3>
+      <p>Email: <a href="mailto:contact.washingtonstaterp@gmail.com">contact.washingtonstaterp@gmail.com</a></p>
+      <p>Discord: <a href="https://discord.gg/ee2xysBu5k" target="_blank" rel="noopener noreferrer">Join our Discord Server</a></p>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Washington State Roleplay. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
